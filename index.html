@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="css/owfont-regular.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>momentum</title>
+</head>
+<body>
+  <header class="header">
+    <div class="weather">
+      <input type="text" class="city" value="Minsk"/>
+      <i class="weather-icon owf"></i>
+      <div class="weather-error"></div>
+      <div class="description-container">
+        <span class="temperature"></span>
+        <span class="weather-description"></span>
+      </div>
+      <div class="wind"></div>
+      <div class="humidity"></div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon"></button>
+      <button class="slide-next slider-icon"></button>
+    </div>
+    <time class="time"></time>
+    <date class="date"></date>
+    <div class="greeting-container">
+      <span class="greeting"></span>
+      <input type="text" class="name" id="name"/>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="change-quote-container">
+      <button class="change-quote">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 64 64">
+        <path class="svg-quote" fill="#fff" d="M55.605 10.395c-5.851-6.388-14.26-10.395-23.605-10.395-17.673 0-32 14.327-32 32h6c0-14.359 11.641-26 26-26 7.689 0 14.596 3.339 19.356 8.644l-9.356 9.356h22v-22l-8.395 8.395z"></path>
+        <path class="svg-quote" fill="#fff" d="M58 32c0 14.359-11.641 26-26 26-7.689 0-14.596-3.339-19.356-8.644l9.356-9.356h-22v22l8.395-8.395c5.851 6.389 14.26 10.395 23.605 10.395 17.673 0 32-14.327 32-32h-6z"></path>
+        </svg>
+      </button>
+    </div>
+    <div>
+      <div class="quote"></div>
+      <div class="author"></div>
+    </div>
+  </footer>
+  
+</body>
+<script src="js/script.js"></script>
+</html>
